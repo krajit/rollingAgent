@@ -1,0 +1,45 @@
+Mono path[0] = '/projectFolder/build_linux/RollingAgent_Data/Managed'
+Mono config path = '/projectFolder/build_linux/RollingAgent_Data/MonoBleedingEdge/etc'
+Preloaded 'lib_burst_generated.so'
+Preloaded 'libgrpc_csharp_ext.x64.so'
+Found 1 interfaces on host : 0) 172.17.0.3
+Player connection [140295456972672]  Target information:
+
+Player connection [140295456972672]  * "[IP] 172.17.0.3 [Port] 55002 [Flags] 2 [Guid] 66595474 [EditorId] 1271199224 [Version] 1048832 [Id] LinuxPlayer(13,172.17.0.3) [Debug] 0 [PackageName] LinuxPlayer [ProjectName] RollingAgent04" 
+
+Player connection [140295456972672] Started UDP target info broadcast (1) on [225.0.0.222:54997].
+
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+Initialize engine version: 2022.3.55f1 (9f374180d209)
+[Subsystems] Discovering subsystems at path /projectFolder/build_linux/RollingAgent_Data/UnitySubsystems
+Forcing GfxDevice: Null
+GfxDevice: creating device client; threaded=0; jobified=0
+NullGfxDevice:
+    Version:  NULL 1.0 [1.0]
+    Renderer: Null Device
+    Vendor:   Unity Technologies
+FMOD initialized on nosound output
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  2.060 seconds
+- Finished resetting the current domain, in  0.002 seconds
+ERROR: Shader Sprites/Default shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+ERROR: Shader Sprites/Mask shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+ERROR: Shader Legacy Shaders/VertexLit shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+WARNING: Shader Unsupported: 'Standard' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+ERROR: Shader Standard shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+WARNING: Shader Unsupported: 'Standard' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+UnloadTime: 1.179834 ms
+Registered Communicator in Agent.
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /home/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Unity.MLAgents.Agent:Awake () (at C:/Users/sneh.lata/Downloads/ml-agents-release_21/ml-agents-release_21/com.unity.ml-agents/Runtime/Agent.cs:373)
+
+requesting resize 84 x 84
